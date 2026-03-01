@@ -1,8 +1,20 @@
-"dependencies": {
-  "@whiskeysockets/baileys": "^6.7.0",
-  "pg": "^8.11.3",
-  "qrcode-terminal": "^0.12.0",
-  "pino": "^8.19.0",
-  "dotenv": "^16.4.5",
-  "axios": "^1.6.8"
+{
+  "name": "astro-bot-render",
+  "version": "1.0.0",
+  "description": "Astrology WhatsApp Bot with Neon DB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "pg": "^8.11.3",
+    "qrcode-terminal": "^0.12.0",
+    "pino": "^8.19.0",
+    "dotenv": "^16.4.5",
+    "axios": "^1.6.8"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
